@@ -1,0 +1,854 @@
+.text-transform{
+    text-transform: Uppercase;
+}
+
+.bg_grey, a.bg_grey, a.bg_grey:visited, a.bg_grey:hover, a.bg_grey:active{
+    background-color: #e1e1e1;
+    color: #fff;
+}
+
+.page-header-stuffix{
+    font-size:18px; 
+    margin-left:20px;
+    color: #6B6659;
+}
+
+@media screen and (max-width: 850px){
+    .page-header-stuffix{
+        font-size:14px; margin-left:2px;
+    }
+}
+.multicolumn_row .multicolumn_column{
+    word-wrap: break-word;
+    word-break:break-word;
+}
+.break-all{
+    word-break: break-all;
+}
+.welcome_info{
+    display: inline-block;
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.mobile-select-small{
+	font-size: 1.6em;
+    padding:5px 0;
+	color: #6B6659;
+}
+@media only screen and (max-width: 850px){
+    .welcome_info {
+        display: inline-block;
+        width: 300px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+@media only screen and (max-width: 600px){
+    .welcome_info {
+        display: inline-block;
+        width: 200px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+@media only screen and (max-width: 400px){
+    .welcome_info {
+        display: inline-block;
+        width: 110px;
+        white-space: nowrap;
+        overflow: hidden;
+        margin: 0 0 0 20px;
+        text-overflow: ellipsis;
+    }
+}
+
+.bg_light_blue
+{
+	background-color: #F5F5F5;
+}
+/*Start New Style*/
+
+/* change any .bg_light_blue to Light Gray: #F5F5F5*/
+.bg_light_blue1
+{
+    background-color: #FFFFFF;
+}
+
+label, label + input + label ,p, .p{
+	
+	font-size:16px;
+}
+
+select{
+	
+	border:1px solid #CCCBCB;
+	border-radius:4px;
+}
+.pad_l_10{
+	
+	padding-right: 10px;
+	padding-left:10px;
+}
+
+.bg_f5{
+	
+	
+	background-color:#F5F5F5;
+}
+
+.bg_failure .h4, .bg_failure span {
+	
+	color:#D0021B;
+}
+
+.multicolumn_row_separator {
+	
+	border-top: 1px solid #BBBBBB;
+}
+
+.bg_BBB{
+	background-color:#BBBBBB;
+	
+}
+	
+.bg_blue{
+	background-color:#4DB4E7 ;
+}
+
+
+
+p select{
+	
+	margin-top:0;
+}
+
+
+/******* edit all buttons*/
+/******* overwrite buttons*/
+
+
+input[type=submit],
+input[type="button"],
+.back {
+	
+	
+	text-transform: uppercase;
+	height:44px;
+	padding-left:20px;
+	padding-right:20px;
+	border:none;
+	color:#FFF;
+	cursor: pointer;
+	font-family:"DINRegular";
+	/*font-size: 1.26em;*/
+	font-size: 17px;
+    margin-top: .7em;
+   /* padding: .5em 18px .5em 18px;*/
+	
+	
+}
+
+
+
+
+.back{
+	margin-top:40px;
+	
+}
+
+input[value="Print"]{
+	background-color:transparent;
+	color:blue;
+	border:none;
+    text-transform: uppercase;
+	cursor: pointer;
+    text-decoration: underline;
+    height: 44px;
+    margin-left: 20px;
+    margin-right: 20px;
+	font-size: 17px;
+    margin-top: .7em;
+	
+	
+}
+
+input[value="Decline All"],
+input[value="Cancel"],
+input[value="Decline"]{
+	
+	background-color: #BBBBBB;
+	
+}
+
+
+
+.ordin_button{
+	text-transform: uppercase;
+	height:44px;
+	padding-left:20px;
+	padding-right:20px;
+	border:none;
+	color:#FFF;
+	cursor: pointer;
+	font-family:"DINRegular"
+	
+}
+
+.field_border{
+	border:1px solid #CCCBCB;
+	border-radius:4px;
+	
+	
+}
+
+input[type*="text"],textarea{
+
+	color:#6B6659;
+	border:1px solid #CCCBCB;
+	border-radius:4px;
+	line-height: 36px;
+    padding: 0 10px;
+    font-family: "dinregular", Georgia, Serif;
+    min-height: 35px;
+	
+
+}
+
+/* Page 1*/
+.text_step_italic{
+	
+	font-weight: bold;
+	font-size:17px;
+	
+}
+
+.text_step_italic.step1{
+	
+	margin-top:20px !important ;
+	
+}
+.text_step_italic.step2{
+	margin-top:20px !important;
+	margin-bottom:20px !important;
+}
+.text_step_italic.step3{
+	margin-top:0 !important;
+}
+
+
+/* Page 4 */
+.font_size_17{
+	
+	font-size:17px;
+}
+
+/*****************************************************/
+
+
+.text_in_make_a_payment{
+	
+	float:left;
+}
+
+
+.number_in_make_a_payment{
+float:right;
+}
+
+.label_width{
+	width:93%;
+}
+
+.text_number_container{
+	
+}
+.p_text_number_width{
+	width:529px;
+}
+
+.put_box{
+	
+	background-color: #f5f5f5;
+    padding: 0.5em;
+    margin-bottom: 12px;
+
+}
+.no_more_tables tr {
+	
+	border-bottom: 1px solid #BBBBBB;
+}
+
+/* Page 5 */
+
+.multicolumn_row_separator2{
+	
+	height:20px;
+	border-bottom:1px solid #BBB;
+	
+		
+}
+
+/* Page 6  */
+
+
+.prnt_button{
+	
+	background-color:transparent;
+	color:blue;
+	border:none;
+    text-transform: uppercase;
+	cursor: pointer;
+    text-decoration: underline;
+    height: 44px;
+    margin-left: 20px;
+    margin-right: 20px;
+	font-size: 1.26em;
+    margin-top: .7em;
+}
+
+
+/* page 11 */
+
+
+
+#main a[href].bg_blue {
+	background-color:#4DB4E7 ;
+	
+	
+}
+
+.no_more_tables .table-striped .table-standard .cf{
+	
+	    box-sizing: border-box;
+
+}
+
+/* page 15 */
+
+
+
+/*Page 16 */ 
+
+.thank_you_heading_important {
+	
+	margin-left:0 ;
+	margin-bottom:0;
+	margin-top:13px !important;
+}
+
+.page_title_margin ,.Promise_To_Pay_margin{
+	margin-bottom:0;
+	
+}
+
+/*page 18*/
+
+.modal_container a [class^="fa-"]{
+	
+	color:#BBB;
+	display: inline-block;
+    margin-top: 0.5em;
+	
+}
+
+
+/*End New Style*/
+
+
+
+/*for mobile*/
+/*overwrite bg color from bg_off_white to f5*/
+#mobile_nav_flyout_right_container{
+	  background-color:#f5f5f5;
+	
+	
+}
+
+
+
+/*Start New Mobile Style for 850 */
+/* start media 850*/
+@media screen and (max-width: 850px){
+	
+	.select_width_49_percent{
+		width:49%;
+	}
+	
+	.no_padding_left_30{
+		padding-left:0 !important;
+	}
+    
+    
+    .no_more_tables td.no_padding_left_30:before{
+        
+        left: -100px;
+    }
+    
+    
+    
+    
+    
+    
+    
+	
+	input[type=submit], input[type="button"], .back{
+		
+		display: block;
+		width: 100%;
+		
+	}
+	.p_button_see{
+		float:none !important;	
+	}
+	.p_above_button_see{
+		float:none !important;	
+		padding-top:0!important;
+		
+	}
+	
+	.p_text_number_width {
+		
+		width:48%;
+	}
+	.label_width{
+	width:90%;
+	
+	}
+	
+	/* td that contains text area (inside table)like Survey and Treatments page */
+	#surveyFormWithoutButton .no_more_tables.table-standard #td_of_text_area {
+		padding-left: 0px;
+		width:100% !important;
+		margin-left: auto;
+		margin-right: auto;
+		width: 93%;
+		min-height: 50px;
+		
+		
+	}
+
+	
+	#surveyFormWithoutButton .no_more_tables.table-standard #td_of_text_area textarea{
+		margin-top:35px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 93%;
+		min-height: 50px;
+		
+
+		
+	}
+		
+	input[type*="text"]{
+		width:90%;
+	}
+
+}
+/* End media 850*/
+/*End New Mobile Style for 850 */
+
+
+	/****** start one public all media code not only mobile*****/
+	.p_above_button_see{
+		line-height: 30px;
+		padding-top: 20px;
+	}
+
+
+	
+	input[value="See Your Payment Schedule"]{
+	
+		margin-top:10px !important;
+		margin-bottom:10px !important;
+		
+		}
+
+
+
+
+	input[type*="text"]{
+		width:90%;
+	}
+
+
+
+	/****** End one public all media code not only mobile*****/
+   
+	
+	
+	
+
+/* start media 640*/
+
+@media only screen and (max-width: 640px){
+	
+	.p_text_number_width {
+		
+		width:100%;
+	}
+	.label_width{
+	width:93%;
+	
+}
+	/* td that contains text area (inside table)like Survey and Treatments page */
+	#surveyFormWithoutButton .no_more_tables.table-standard #td_of_text_area{
+		padding-left: 0px;
+		width:100% !important;
+		
+		
+	}
+
+	
+	#surveyFormWithoutButton .no_more_tables.table-standard #td_of_text_area textarea{
+		
+		margin-top:35px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 93%;
+		min-height: 50px;
+		
+	}
+	
+	
+	input[type*="text"]{
+	width:90%;
+	}
+	
+	.p_above_input_login{
+		
+		margin-top:0 !important;
+	}
+	
+
+
+}
+/* start media 640*/
+	
+
+
+/*End  New Mobile Style*/
+
+
+.special_table {
+	max-width:700px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:30px!important;
+	margin-bottom:30px;
+
+	
+}
+
+.font_1em{
+	font-size: 1em !important;
+
+	}
+
+
+/**************************************************************
+************** Start New Edits ********************************
+**************************************************************/
+
+
+/*start make a payment page */
+
+.position_relative_1 {
+
+	position: relative;
+	bottom: 5px;
+}
+
+.position_relative_2{
+
+	position: relative;
+	bottom: 13px;
+
+
+}
+/*end make a payment page */
+
+/* start account summary page */
+
+
+.margin_right_5{
+
+	margin-right:5%;
+}
+
+
+/* end account summary page */
+
+
+
+
+/* start survey and treatment*/
+
+.font_size_h2{
+
+
+	font-size: 2.3em;
+}
+
+/*end survey and treatment */
+
+
+
+
+/*************************************************************************/
+/* start mobile menu */
+/*************************************************************************/
+/*************************************************************************/
+
+
+#mobile_nav_flyout_right #mobile_nav_flyout_right_container {
+    height: 636px;
+}
+
+
+
+    
+    /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+    /* Portrait 3ady msh ma3woog */
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+      #mobile_nav_flyout_right #mobile_nav_flyout_right_container {
+      
+      height:647px;
+      }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+      
+      #mobile_nav_flyout_right #mobile_nav_flyout_right_container {
+      
+      height:360px;
+      }
+
+}
+
+
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+/* Portrait 3ady */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+      
+      #mobile_nav_flyout_right #mobile_nav_flyout_right_container {
+      
+      height:716px;
+      }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+      
+       #mobile_nav_flyout_right #mobile_nav_flyout_right_container {
+           
+           height:394px;
+      }
+
+}
+
+
+
+/* ----------- iPhone X ----------- */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+      #mobile_nav_flyout_right #mobile_nav_flyout_right_container {
+          
+         height:785px;
+      }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+      #mobile_nav_flyout_right #mobile_nav_flyout_right_container {
+          
+          height:432px;
+          
+          
+      }   
+}
+
+
+/* chrome */
+#mobile_nav_flyout_right #mobile_nav_flyout_right_container {
+
+/*
+    chrome and desktop
+    height:100vh; 
+    max-height:736px;
+*/
+    
+    height: 100vh;
+    }
+    
+
+    
+    
+    
+/*************************************************************************/
+/* end mobile menu */
+/*************************************************************************/
+/*************************************************************************/
+
+
+/* start payment offer details */
+
+@media only screen and (max-width: 850px){
+	.special_p_margin_top{
+		margin-top: 1.7em !important;
+	}
+
+
+
+
+}
+
+
+
+/* end payment offer details */
+
+
+/* start survay and treatment */ 
+
+
+
+select{
+    
+    font-family: "dinregular", Georgia, Serif;
+    
+}
+
+
+
+.no_top_margin_important{
+    
+    margin-top:0 !important;
+}
+
+
+.height_0{
+    height:0;
+}
+
+
+
+
+/* end survay and treatment */
+
+
+/* header height adjust */
+
+
+@media only screen and (max-width: 850px){
+   
+    #mobile_nav ul li {
+        
+        border-bottom: none;
+    }
+    
+    #mobile_nav ul{
+        
+        height: 55px;
+    }
+    
+    #mobile_nav{
+        
+        height: 55px;
+    }
+    #header_container{
+        height: 55px;
+        
+        
+    }
+    
+    #header{
+         height: 55px;
+        
+    }
+    .no_margin_top_ever_mobile{
+        margin-top:0 !important;
+
+    }
+    .adjust_width_mobile{
+        width:63.333% !important;
+
+    }
+    .block_width_100_mob{
+        display:block;
+        width:100% !important;
+    }
+    .block_max_width_100_mob{
+        display:block;
+        max-width:100% !important;
+
+    }
+
+}
+
+
+
+@media only screen and (max-width: 407px){
+
+    .payment_info_date{
+        margin-top:51.2px !important;
+
+    }
+
+}
+
+@media only screen and (max-width: 357px){
+
+    .payment_info_money{
+        margin-top:51.2px !important;
+
+    }
+}
+
+.text_red {
+	color: #ff0000!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* end payment offer details */

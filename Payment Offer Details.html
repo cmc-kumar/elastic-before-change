@@ -1,0 +1,1520 @@
+            
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment Offer Details</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="robots" content="index, follow"/>
+    
+            <link rel="shortcut icon" type="image/ico" href="theme/favicon.ico"/>
+            <link rel="icon" type="image/ico" href="theme/favicon.ico"/>
+            <link rel="apple-touch-icon" href="theme/favicon.ico"/>
+            
+    
+    <link href="theme/css/global_css/global_framework_1.css" type="text/css" rel="stylesheet"/>
+    <link href="theme/css/global_css/default_styles_1.css" type="text/css" rel="stylesheet"/>
+    <link href="theme/css/katabat_css/core/katabat_core_1.css" type="text/css"
+          rel="stylesheet"/>
+    <link href="theme/css/katabat_core_2_css/katabat_core_2.css" rel="stylesheet"
+          type="text/css"/>
+    <link href="theme/css/cmc.css" rel="stylesheet" type="text/css"/>
+    <link href="theme/css/client.css" rel="stylesheet" type="text/css"/>
+    <link href="theme/css/jquery-ui.css" rel="stylesheet" type="text/css"/>
+    <script src="theme/scripts/jquery-1.10.2.js" type="text/javascript"></script>
+    <style type="text/css">
+      .ui-datepicker .ui-datepicker-title {
+        margin: 0px 1.3em;
+        line-height: 1.8em;
+        text-align: center;
+      }
+    </style>
+    <link rel="stylesheet" href="theme/css/common_style.css" type="text/css" title="" charset="utf-8"/>
+    <style>
+        .tos {
+            overflow-y: scroll;
+            height: 200px;
+            border: 1px solid #DDD;
+            padding: 10px;
+        }
+    </style>
+    <script type="text/javascript">
+        var isSubmit = false;
+        function preventRepeatSubmit() {
+            if (isSubmit) {
+                return false;
+            } else {
+                isSubmit = true;
+                return true;
+            }
+        }
+    </script>
+</head>
+<body class="responsive">
+
+            <div id="mobile_nav_flyout_left" class="small medium inactive">
+<!--            -->
+            <!---->
+               <div id="mobile_nav_flyout_left_container">
+                  <!--Empty left menu now -->
+
+              </div>
+             </div>
+
+             <div id="mobile_nav_flyout_right" class="small medium inactive">
+                <div id="mobile_nav_flyout_right_container">
+
+                  <div class="">
+                  <h3 class="indent_1 accordion accordion_small accordion_medium accordion_large inactive">
+                             <a title="Return To MyAccount" class="block horizontal active" href="/security/logout?param=">
+                                <span class="">Return To MyAccount</span>
+                            </a>
+                  </h3>
+                        <h3 class="indent_1 accordion accordion_small accordion_medium accordion_large inactive">
+                              <a title="Account Summary" class="block horizontal active" href="/html/acctSummary">
+                                  <span class="">Account Summary</span>
+                              </a>
+                        </h3>
+
+                        <h3 class="indent_1 accordion accordion_small accordion_medium accordion_large inactive">
+                            <a title="Payment Options" class="block horizontal inactive" href="javascript:void(0);" onclick="more(this)">
+                                <!--<span class="plus_minus"><span class="fa-plus"></span></span>-->
+                                <span class="">Payment Options</span>
+                            </a>
+                        </h3>
+                        <div class="accordion_content">
+                            <a title="Make A Payment" class="vertical bg_white button_menu_item " href="/exec/payment">
+                                <span class="indent_1 alignment_wide">Make A Payment</span><span class="fa-chevron-right"></span>
+                            </a>
+                            <a title="Review Payment Offers" class="vertical bg_white button_menu_item " href="/exec/program">
+                                <span class="indent_1 alignment_wide">Review Payment Offers</span><span class="fa-chevron-right"></span>
+                            </a>
+                            <a title="Manage Payment Methods" class="vertical bg_white button_menu_item " href="/payments/manageBankAccounts">
+                                <span class="indent_1 alignment_wide">Manage Payment Methods</span><span class="fa-chevron-right"></span>
+                            </a>
+                              <a title="Promise To Pay" class="vertical bg_white button_menu_item " href="/exec/promise">
+                                  <span class="indent_1 alignment_wide">Promise To Pay</span><span class="fa-chevron-right"></span>
+                              </a>
+                        </div>
+
+                        <!--<h3 class="indent_1 accordion accordion_small accordion_medium accordion_large active">
+                            <a title="Update Contact Info" class="block horizontal active" href="/flow/contactFlow">
+                                <span class="">Update Contact Info</span>
+                            </a>
+                        </h3>-->
+
+                            <h3 class="indent_1 accordion accordion_small accordion_medium accordion_large inactive">
+                              <a title="Additional Options" class="block horizontal inactive" href="javascript:void(0);" onclick="more(this)">
+                                  <span class="plus_minus"><span class="fa-plus"></span></span>
+                                  <span class="">Additional Options</span>
+                              </a>
+                            </h3>
+                             <div class="accordion_content">
+                                    <a title="Add/Update Bank Account" class="vertical bg_white button_menu_item " href="/flow/workflow/start?ozEsYt=KPFqyVt9tyO6gK2UId3nzH8ZT0uZVA6fyrHfd11VE3l885WKJtZr-tUW6WOinFTKvENMgCx_jKe1H7sDb839LdaxlhGyauf0tj0vmCoQmpw%3D">
+                                      <span class="indent_1 alignment_wide">Add/Update Bank Account</span><span class="fa-chevron-right"></span>
+                                    </a>
+                             </div>
+
+                        <!--<h3 class="indent_1 accordion accordion_small accordion_medium accordion_large active">
+                            <a title="Schedule Appointment" class="block horizontal active" href="/appointment/list">
+                                <span class="">Schedule Appointment</span>
+                            </a>
+                        </h3>-->
+
+                    <h3 class="indent_1 accordion accordion_small accordion_medium accordion_large active">
+                          <a title="Logout" class="block horizontal active" href="/security/logout">
+                              <span class="">Logout</span>
+                          </a>
+                    </h3>
+                  </div>
+
+              </div>
+             </div>
+
+              </div>
+            
+
+
+<div id="page_center">
+    <div id="page_center_container">
+        <div id='content'>
+
+            <div id='header'>
+                <div id='header_container'>
+                    
+            <div id="mobile_nav" class="small medium">
+              <ul>
+                <li class="icon">
+                    <a class="menu_activator" href="javascript:mobile_menu('mobile_nav_flyout_right')"><span
+                      class="fa-bars"></span></a>
+                </li>
+                <li>
+Welcome<br/>
+                    <span class="weight_bold welcome_info">
+                        Lorine Geare
+                    </span>
+                </li>
+                <li class="icon">
+                  <a title="RISE" href="/html/acctSummary">
+                    <img class="logo" alt="RISE" src="theme/images/logo/logo.png">
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="user_logout_container">
+            <div id="user_logout" class="large">
+
+                  <div id="user_logout_container">
+                    <p class="weight_bold p_1">Welcome,
+
+                            Lorine Geare
+                            &nbsp;<a class="a_1" href="/security/logout?param=">Return To MyAccount</a>
+                      &nbsp;
+                      <a class="a_2" href="/security/logout">Logout</a>
+                    </p>
+                  </div>
+                </div>
+                 </div>
+            </div>
+            <div class="clear"></div>
+          
+                    
+            <div id="top_nav" class="large">
+
+              <div id="top_nav_container">
+                <div class="multicolumn_row multicolumn_row_borderless">
+                  <div class="multicolumn_column top_logo_width">
+                   <div class="multicolumn_column_container div_1">
+                    <div class="logo_container_1">
+                      <a title="RISE" href="/html/acctSummary" class="logo_a_1">
+                        <img alt="RISE" src="theme/images/logo/logo.png" class="logo_img_1">
+                      </a>
+                    </div>
+                      <div class="column_fill">
+                      </div>
+                      <!-- End multicolumn_column_container -->
+                    </div>
+                    <!-- End multicolumn_column -->
+                  </div>
+                    <div class="multicolumn_column width_last top_nav_width">
+                      <div class="multicolumn_column_container">
+                        <ul id="top_nav_menu" class="hotspot_menu">
+                            <li id="top_nav_menu_0">
+                              <a title="Account Summary" href="/html/acctSummary" class="">Account Summary</a>
+                            </li>
+                            <li id="top_nav_menu_1" class="menu_button url_off not_full">
+                              <a title="Payment Options" class="menu_button_a " href="javascript:void(0);">Payment Options</a>
+                              <div id="top_nav_targets_1" class="top_nav_target flyout">
+                                <div class="article article_standard">
+                                  <p><a title="Make A Payment" href="/exec/payment">Make A Payment</a></p>
+                                  <p><a title="Review Payment Offers" href="/exec/program">Review Payment Offers</a></p>
+                                  <p><a title="Manage Payment Methods" href="/payments/manageBankAccounts">Manage Payment Methods</a></p>
+                                    <p><a title="Promise To Pay" href="/exec/promise">Promise To Pay</a></p>
+                                </div>
+                              </div>
+                            </li>
+                            <!--<li id="top_nav_menu_2">
+                              <a title="Update Contact Info" href="/flow/contactFlow" class="">Update Contact Info</a>
+                            </li>-->
+
+                                  <li id="top_nav_menu_6" class="menu_button url_off not_full">
+                                    <a title="Additional Options" class="menu_button_a " href="javascript:void(0);">Additional Options</a>
+                                    <div id="top_nav_targets_6" class="top_nav_target flyout">
+                                      <div class="article article_standard">
+                                            <p><a title="Add/Update Bank Account" href="/flow/workflow/start?ozEsYt=KPFqyVt9tyO6gK2UId3nzH8ZT0uZVA6fyrHfd11VE3l885WKJtZr-tUW6WOinFTKvENMgCx_jKe1H7sDb839LdaxlhGyauf0tj0vmCoQmpw%3D">Add/Update Bank Account</a></p>
+                                      </div>
+                                    </div>
+                                  </li>
+                           <!-- <li id="top_nav_menu_3">
+                              <a title="Schedule Appointment" href="/appointment/list" class="">Schedule Appointment</a>
+                            </li>-->
+                        </ul>
+                        <div class="column_fill">
+                        </div>
+                        <!-- End multicolumn_column_container -->
+                      </div>
+                      <!-- End multicolumn_column -->
+                    </div>
+                  <!-- End multicolumn_row -->
+                </div>
+              </div>
+            </div>
+            
+                    <div class='clear'></div>
+                </div>
+                <!-- End header_container -->
+                <div class='clear'></div>
+            </div>
+            <!-- End header -->
+            <div id='main'>
+                <div id='main_container'>
+                    <div id="main_right_unit">
+                        <div id="main_content_right_rail_unit">
+                            <div id="main_content" class="no_right_rail">
+                                <div id="main_content_container">
+                                    <div id="title_main_content" class="page_title">
+                                        <h1 class="text-transform">Payment Offer Details<span class="page-header-stuffix">-0783</span></h1>
+                                        <!-- End title_main_content -->
+                                    </div>
+                                    <div class="multicolumn_row multicolumn_row_standard">
+                                        <div class="multicolumn_column width_100 width_last">
+                                            <div class="multicolumn_column_container">
+                                                <p class="h4 font_size_17 put_box">Your current balance is :  $80,015.75.</p>
+                                                    <p class="h2">
+We will accept a total payment of &nbsp;
+$757,577.46, payable over                                                         2 weeks, to fulfill your debt obligation.
+                                                    </p>
+
+                                                <p class="h2 text_light font-min">Please click the button corresponding to your selection, then fill in all required information.</p>
+                                                <div class="column_fill"></div>
+                                                <!-- End multicolumn_column_container --></div>
+                                            <!-- End multicolumn_column --></div>
+                                        <div class="clear"></div>
+                                        <!-- ECM0000 -->
+                                        <!-- End multicolumn_row --></div>
+
+
+                                    
+      <form id="programOfferForm"
+                  action="/flow/program"
+                  method="post"
+                  enctype="multipart/form-data">
+      <input type="hidden" id="_tk" name="_tk" value="dUB2mTpPWg867jrvd91L8YoEu3zFWWdg1AxLLuPizgI">
+      <input type="hidden" name="_X_SS_CSRFToken" value="B6D9DC7F9D4B6E93">
+                  
+                                    <input type="hidden" name="_flowExecutionKey" value="e3s1">
+                                    <input type="hidden" name="fromPage" value="M_OFFER">
+                                    <input type="hidden" id="eventName">
+                                    <input type="hidden" id="nextUrl" name="nextUrl" value="/flow/program?ozEsYt=ghCCNAZXwlkw-55KNYMYIw%3D%3D">
+                                    <input type="hidden" id="initialized" name="initialized" value="false">
+
+                                    <div class="multicolumn_row multicolumn_row_standard">
+                                        <div class="multicolumn_column width_100">
+                                            <div class="multicolumn_column_container">
+                                                <div class="article article_standard width_100">
+                                                        <input type="hidden" name="programId" value="168">
+                                                        <div style="border-top: 1px solid #cccccc;"></div>
+                                                        <div class="article article_standard">
+                                                            <table class="no_more_tables table-striped table-standard cf ">
+                                                                <thead>
+                                                                <tr class="bg_light_blue">
+                                                                    <th><p class="weight_normal">Funding Account</p></th>
+                                                                    <th><p class="weight_normal">Payment Amount</p></th>
+                                                                    <th><p class="weight_normal">Payment Date</p></th>
+                                                                        <th><p class="weight_normal">CVV</p></th>                                                          
+                                                                </tr>
+                                                                </thead>
+
+
+                                                                    <input type="hidden" id="requiredHidden"  name="payments[729].required" value="true">
+
+                                                                    <tr class="">
+                                                                        <td data-title="Funding Account" class="width_20" >
+                                                                            <p class="special_p_margin_top text_red"></p>
+                                                                            <p class="special_p_margin_top">
+                                                                                    <select id="selectFundingAccount0" name="payments[729].fundingAccountId"
+                                                                                            class="offset-b10 no_top_margin" style="width:8em; font-size: 1em" onchange="checkFundingAccountType(0);">
+                                                                                                    <option value="648">test</option>
+
+
+                                                                                    </select>
+
+                                                                                        <input type="hidden" value="card" id="648">
+
+                                                                                    <span class="fa-asterisk text_red bg_callout_padding"></span>
+                                                                            </p>
+                                                                            <div class="clear"></div>
+                                                                        </td>
+
+                                                                        <td data-title="Payment Amount" class="width_20">
+                                                                            
+      <input type="hidden" name="payments[729].paymentAmount" value="378788.73"/>
+      
+                                                                            <p class="large">
+$378,788.73                                                                            </p>
+
+                                                                            <p class="small medium right no_top_margin">
+$378,788.73                                                                            </p>
+
+                                                                            <div class="clear"></div>
+                                                                        </td>
+                                                                        <td data-title="Payment Date" class="width_20">
+                                                                            <p class="special_p_margin_top text_red"></p>
+                                                                            <p class="special_p_margin_top"><span class="date-row">
+                                                <input type="text" id="paymentDate_729" name="payments[729].paymentDate" value="08/14/2019" 
+                                                            autocomplete="off"
+                                                            formField="true"
+                                                            required="true"
+                                                            fieldType="date"
+                                                            style="display:inline; width:6em; font-size: 1em;"
+                                                            maxlength="10"
+                                                            readonly="readonly"
+                                                            dateFormat="MM/dd/yyyy" maxValue="14" minValue="0"/>
+
+                                        </span></p>
+
+                                                                            <div class="clear"></div>
+                                                                        </td>
+                                                                            <td data-title="CVV" class="width_20">
+                                                                                <p class="special_p_margin_top text_red"> 
+            </p>
+                                                                                <p>
+                                                                                    <input type="text"
+                                                                                           name="payments[729].cvv"
+
+                                                                                           maxlength="4"
+                                                                                           size="3"
+                                                                                           id="CVV0"
+                                                                                           onkeypress="return isTdbIntegerKey(event)"
+                                                                                           style="width:8em; font-size: 1em"
+
+                                                                                    />
+                                                                                        <a href="#" style="color: blue;font-size: 12px;text-decoration: underline;" onclick="copyCVV(2)">Use this for All</a>
+                                                                                </p>
+                                                                            </td>
+
+                                                                        <!--<td data-title="Status" class="width_20">-->
+                                                                        <!--<p class="large">-->
+                                                                        <!--$-{installment.paymentStatus???string('Existing','New')}-->
+                                                                        <!--</p>-->
+
+                                                                        <!--<p class="small medium right no_top_margin">-->
+                                                                        <!--$-{installment.paymentStatus???string('Existing','New')}-->
+                                                                        <!--</p>-->
+
+                                                                        <!--<div class="clear"></div>-->
+                                                                        <!--</td>-->
+                                                                    </tr>
+
+
+                                                                    <input type="hidden" id="requiredHidden"  name="payments[730].required" value="true">
+
+                                                                    <tr class="">
+                                                                        <td data-title="Funding Account" class="width_20" >
+                                                                            <p class="special_p_margin_top text_red"></p>
+                                                                            <p class="special_p_margin_top">
+                                                                                    <select id="selectFundingAccount1" name="payments[730].fundingAccountId"
+                                                                                            class="offset-b10 no_top_margin" style="width:8em; font-size: 1em" onchange="checkFundingAccountType(1);">
+                                                                                                    <option value="648">test</option>
+
+
+                                                                                    </select>
+
+                                                                                        <input type="hidden" value="card" id="648">
+
+                                                                                    <span class="fa-asterisk text_red bg_callout_padding"></span>
+                                                                            </p>
+                                                                            <div class="clear"></div>
+                                                                        </td>
+
+                                                                        <td data-title="Payment Amount" class="width_20">
+                                                                            
+      <input type="hidden" name="payments[730].paymentAmount" value="378788.73"/>
+      
+                                                                            <p class="large">
+$378,788.73                                                                            </p>
+
+                                                                            <p class="small medium right no_top_margin">
+$378,788.73                                                                            </p>
+
+                                                                            <div class="clear"></div>
+                                                                        </td>
+                                                                        <td data-title="Payment Date" class="width_20">
+                                                                            <p class="special_p_margin_top text_red"></p>
+                                                                            <p class="special_p_margin_top"><span class="date-row">
+                                                <input type="text" id="paymentDate_730" name="payments[730].paymentDate" value="08/21/2019" 
+                                                            autocomplete="off"
+                                                            formField="true"
+                                                            required="true"
+                                                            fieldType="date"
+                                                            style="display:inline; width:6em; font-size: 1em;"
+                                                            maxlength="10"
+                                                            readonly="readonly"
+                                                            dateFormat="MM/dd/yyyy" maxValue="21" minValue="0"/>
+
+                                        </span></p>
+
+                                                                            <div class="clear"></div>
+                                                                        </td>
+                                                                            <td data-title="CVV" class="width_20">
+                                                                                <p class="special_p_margin_top text_red"> 
+            </p>
+                                                                                <p>
+                                                                                    <input type="text"
+                                                                                           name="payments[730].cvv"
+
+                                                                                           maxlength="4"
+                                                                                           size="3"
+                                                                                           id="CVV1"
+                                                                                           onkeypress="return isTdbIntegerKey(event)"
+                                                                                           style="width:8em; font-size: 1em"
+
+                                                                                    />
+                                                                                </p>
+                                                                            </td>
+
+                                                                        <!--<td data-title="Status" class="width_20">-->
+                                                                        <!--<p class="large">-->
+                                                                        <!--$-{installment.paymentStatus???string('Existing','New')}-->
+                                                                        <!--</p>-->
+
+                                                                        <!--<p class="small medium right no_top_margin">-->
+                                                                        <!--$-{installment.paymentStatus???string('Existing','New')}-->
+                                                                        <!--</p>-->
+
+                                                                        <!--<div class="clear"></div>-->
+                                                                        <!--</td>-->
+                                                                    </tr>
+                                                            </table>
+                                                            <div class="clear">&nbsp;</div>
+                                                        </div>
+
+                                                        <div id="displayTOS" class="article article_standard width_100" style="padding-top: 5px;">
+                                                            <div class="tos">
+                                                                
+<p style="text-align: center"><strong><span style="font-size: medium;">ACH OR DEBIT CARD AUTHORIZATION</span></strong></p>
+
+<p style="text-align: center"><span style="font-size: medium;"><strong>(applies only if you select the electronic funding option or authorize debit card payments)</strong></span></p>
+
+<p><span style="font-size: small;">You voluntarily authorize RISE, and our successors, affiliates, agents, representatives, employees and assigns, to initiate automated debit entries to your Bank Account by your selection of ACH or Debit Card on the dates you have selected and in the amounts outlined in the offer. For purposes of this ACH/Debit Card Authorization, &#8220;Bank Account&#8221; or &#8220;debit card&#8221; also includes any other bank account or debit card that you provide to RISE, from which you intend to permit payments. <strong>THIS AUTHORIZATION IS FOR THE OFFER TERMS AND AMOUNTS ONLY AND IS SEPARATE FROM ANY AUTHORIZATION OR REGULAR PAYMENTS DUE UNDER YOUR AGREEMENT WITH RISE.</strong></span></p>
+
+<p><span style="font-size: small;">If your payment is due on a non-business day, it will be processed on the next business day. You agree that this ACH/Debit Card Authorization is for repayment of a Loan and that payments will occur as you have selected. This ACH/Debit Card Authorization is to remain in full force and effect until you pay all payments you have selected in connection with this offer. You may revoke this ACH/Debit Card Authorization by contacting us directly at (833) 204-2599, logging into your &#8220;My Account&#8221; page, or by contacting your bank. In no event will any revocation of this ACH/Debit Card Authorization be effective with respect to entries processed by us prior to us receiving such revocation.</span></p>
+
+<p><span style="font-size: small;">Your bank may charge you a fee in connection with our debit entries. Contact your financial institution for more information specific to your Bank Account or Debit Card. If your payment is returned to us by your financial institution due to insufficient funds, or a closed account, you agree that we may recover court costs and reasonable attorney&#8217;s fees incurred by us as permitted by applicable law.</span></p>
+
+<p><span style="font-size: small;">This ACH/Debit Card Authorization is subject to the following provisions:</span></p>
+
+<p><span style="font-size: small;">(1) <i>Right to stop payment and procedure for doing so. </i> If you have told us in advance to take payments out of your Bank Account by ACH or Debit Card, you can stop any of these payments. Here&#8217;s how: Call us at (833) 204-2599 or login to your &#8220;My Account&#8221; page prior to 4:45 p.m. central time the day before the payment is scheduled to be made. You may also contact your bank. </span></p>
+
+<p><span style="font-size: small;">(2) <i>Liability for failure to stop payment of preauthorized transfer.</i> If you order us to stop one of these payments three (3) business days or more before the transfer is scheduled, and we do not do so, we will be liable for your losses or damages. </span></p>
+
+<p><span style="font-size: small;">(3) <i>Notice of varying amounts. </i> You acknowledge that you will receive a notice at least 10 days before a payment is debited from your Bank Account if the payment we are going to debit by ACH or Debit Card varies from the amount you have scheduled. You have the right to receive notice of all varying amounts.</span></p>
+
+<p><span style="font-size: small;">(4) <i>Missing or Incorrect Information. </i> If there is any missing or incorrect information in or with your loan application or this offer regarding your bank, bank routing number, or account number, then you authorize us to verify and correct such information.</span></p>
+
+<p><span style="font-size: small;">This ACH/Debit Card authorization is a payment mechanism only and does not give us collection rights greater than those otherwise contained in this Agreement. This ACH/Debit Card Authorization does not constitute and is not intended to constitute a security interest.</span></p>
+
+                                                            </div>
+                                                            <p>
+                                                                <input type="checkbox" id="acceptTOS"  onclick="enableAcceptProgram(this);" class="inline"/>
+                                                                I accept the terms and conditions mentioned in the disclaimer.
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="multicolumn_row multicolumn_row_standard">
+                                                            <div class="multicolumn_column_container">
+                                                                <p>
+                                                                    <input id="continueBtn" class="vertical button_standard bg_blue input_submit inline offset-r10 btn btn-primary" type="submit" name="_eventId_review" value="Accept Program" onclick="return preventRepeatSubmit();"/>
+                                                                    <input class="vertical button_standard bg_blue input_submit inline offset-r10 btn btn-default" type="button" name="_eventId_decline" value="Decline" onclick="window.location.href='/html/acctSummary'"/>
+                                                                    <input type="submit" value="Add Card Account" onclick="addNewCardAccount();" class="vertical button_standard bg_blue input_submit inline offset-r10 btn btn-default" />                 
+
+                                                                </p>
+                                                                <p>
+                                                                </p>
+                                                                <div class="column_fill"></div>
+                                                            </div>
+                                                            <div class="clear"></div>
+                                                        </div>
+
+                                                    <script>
+                                                        $(document).ready(function () {
+                                                            initFundingAcct();
+                                                        });
+
+                                                        function initFundingAcct() {
+                                                            var fundingAcctId = "newBank",
+                                                                fundingType = "",
+                                                                fundingSubType = "",
+                                                                newBankRadio = $('#newBankRadio'),
+                                                                newCardRadio = $('#newCardRadio');
+                                                            if (fundingAcctId === 'newCard') {
+                                                                fundingType = "";
+                                                                fundingSubType = "";
+                                                            } else if (fundingAcctId === 'newBank') {
+                                                                fundingType = "";
+                                                                fundingSubType = "";
+                                                            }
+
+                                                            if (fundingAcctId === 'newCard') {
+                                                                newCardRadio.attr('checked', 'checked');
+                                                                if (fundingType) {
+                                                                    $('#fundingAccount.newCard.type').val(fundingType);
+                                                                }
+                                                                if (fundingSubType) {
+                                                                    $('#fundingAccount.newCard.subtype').val(fundingSubType)
+                                                                }
+                                                                showAddressInfo(true);
+                                                            } else if (fundingAcctId === 'newBank') {
+                                                                newBankRadio.attr('checked', 'checked');
+                                                                if (fundingType) {
+                                                                    $('#fundingAccount.newBank.type').val(fundingType);
+                                                                }
+                                                                if (fundingSubType) {
+                                                                    $('#fundingAccount.newBank.type').val(fundingSubType)
+                                                                }
+                                                                showAddressInfo(false);
+                                                            } else {
+                                                                showAddressInfo(false, true);
+                                                                $('#existFundingAcct_' + fundingAcctId).attr('checked', 'checked');
+                                                            }
+                                                        }
+
+                                                        function onFundingAcctChanged(isHideAll) {
+                                                            var newBankRadioVal = $('#newBankRadio').is(':checked') || false;
+                                                            if (isHideAll) {
+                                                                showAddressInfo(false, true);
+                                                            } else {
+                                                                showAddressInfo(!newBankRadioVal);
+                                                            }
+
+                                                        }
+
+                                                        function showAddressInfo(showNewCardInfo, allHide) {
+                                                            var newCardAddressInfo = $('#newCardAddressInfo'),
+                                                                newBankInfo = $('#newBankInfo');
+                                                            newCardAddressInfo.css('display', showNewCardInfo ? '' : 'none');
+                                                            newBankInfo.css('display', showNewCardInfo ? 'none' : '');
+                                                            if (allHide) {
+                                                                newCardAddressInfo.css('display', 'none');
+                                                                newBankInfo.css('display', 'none');
+                                                            }
+                                                        }
+
+                                                        function onUseOtherFundingAcctChanged() {
+                                                            var fundingAcctVal = $('#useOtherFundingAcctCheckbox').is(':checked') || false;
+                                                            if (fundingAcctVal) {
+                                                                $('#fundingContainer').css('display', 'block');
+                                                                $('.confirmFundingAccountColumn').css('display', 'none');
+                                                            } else {
+                                                                $('#fundingContainer').css('display', 'none');
+                                                                $('.confirmFundingAccountColumn').css('display', '');
+                                                            }
+                                                        }
+
+                                                    </script>
+                                                </div>
+
+                                                <div class="column_fill"></div>
+                                                <!-- End multicolumn_column_container --></div>
+                                            <!-- End multicolumn_column --></div>
+                                        <div class="clear"></div>
+                                        <!-- ECM0000 -->
+                                        <!-- End multicolumn_row -->
+                                    </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class='clear'></div>
+                        </div>
+                        <div class='clear'></div>
+                    </div>
+                    <div class='clear'></div>
+                </div>
+                
+                        <div class="clear"></div>
+                        <div id="main_bottom">
+                            <div id="main_bottom_container">
+                                <div class="modal" id="timeoutCutDownWin">
+                                    <div class="modal_container">
+                                        <div class="modal_close right h2 no_top_margin"><a class="modal_link" href="javascript:void(0);"><span
+                                                class="fa-times-circle">&nbsp;</span></a></div>
+                                        <p class="h2">Session Timeout</p>
+                                        <hr>
+                                        <p>Due to lack of activity, this session will be logged out in 2 minutes.</p>
+
+                                        <p class="text_red">
+                                          <span id="sessionTimeoutLeftSeconds">
+120                                          </span>
+second(s) left ...                                        </p>
+                                        <p><a href="javascript:void(0);" onclick="activeSession();"
+                                              class="vertical button_standard bg_blue btn btn-primary">
+                                                <span>
+                                                  <strong>
+Keep Session Active                                                  </strong>
+                                                </span>
+                                              </a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="clear">&nbsp;</div>
+                            </div>
+                            <div class="clear">&nbsp;</div>
+                        </div>
+                        <div class="clear"></div>
+            
+                <div class='clear'></div>
+            </div>
+            <!-- End main -->
+            <div class='clear'></div>
+
+            
+
+      <div id="footer">
+        <div id="footer_top_border">
+          <!-- End footer_top_border -->
+        </div>
+        <div id="footer_container">
+          <div class="article article_standard">
+            <p>
+             <span>
+                <a href="https://www.risecredit.com/security" target="_blank">Security Policy</a>
+                &nbsp;&nbsp;|&nbsp;
+                <a href="https://www.risecredit.com/privacy-policy" target="_blank">Privacy Policy</a>
+                &nbsp;&nbsp;|&nbsp;
+                <a href="https://www.risecredit.com/account-services" target="_blank">Contact Us</a>
+              </span>
+            </p>
+            <p>
+
+            </p>
+            <p></p>
+            <!-- End article -->
+          </div>
+          <div class="clear"></div>
+          <!-- End footer_container" -->
+        </div>
+        <div class="clear">
+        </div>
+        <!-- End footer -->
+      </div>
+
+            
+            <div class='clear'></div>
+        </div>
+        <!-- End content -->
+    </div>
+    <!-- End page_center_container -->
+</div>
+<!-- End page_center -->
+
+
+<script src="theme/js/global_js/global_framework_1.js" type="text/javascript"
+        language="javascript"></script>
+<script language="javascript" type="text/javascript"
+        src="theme/js/katabat_js/core/katabat_core_1.js"></script>
+<script type="text/javascript" language="javascript"
+        src="theme/js/katabat_core_js/katabat_core_2.js"></script>
+<script type="text/javascript" language="javascript"
+        src="theme/js/katabat_core_js/jquery-ui.min-1.11.2.js"></script>
+<script type="text/javascript">
+    var sessionCutDownTimes = 120;
+
+    var timeOutId = null;
+    function cutDownSessionTimeout() {
+        clearTimeout(timeOutId);
+        if (sessionCutDownTimes == 0) {
+            window.location.href = "/security/logout";
+        } else {
+            sessionCutDownTimes--;
+            jQuery("#sessionTimeoutLeftSeconds").html(sessionCutDownTimes);
+            timeOutId = setTimeout(cutDownSessionTimeout, 1000);
+        }
+    }
+    function activeSession() {
+        jQuery.ajax({
+            url: "/ping",
+            success: function (data, textStatus, xhr) {
+                var sessionTimeoutFlag = xhr.getResponseHeader("SessionTimeout")
+                if ("Y" == sessionTimeoutFlag)
+                    window.location.href = "/security/logout";
+                else {
+                    modalToggle("timeoutCutDownWin");
+                    clearTimeout(timeOutId);
+                }
+            }
+        });
+    }
+    function sessionTimeoutWarning() {
+        modalToggle("timeoutCutDownWin");
+        timeOutId = setTimeout(cutDownSessionTimeout, 1000);
+    }
+
+    function openPopupWin(uri) {
+        if (uri) {
+            window.frames["popupWinFrame"].location.href = uri;
+            openModal("popupWinModel");
+        }
+    }
+
+    function cancelPopupWin() {
+        modalToggle("popupWinModel");
+        return false;
+    }
+    $(document).ready(function () {
+          setTimeout(sessionTimeoutWarning, 1080* 1000);
+    });
+</script>
+            
+<script type="text/javascript">
+    var _form_validation = {
+        errorDisplayPrefix: "form_error_",
+        attr: {
+            errorPrefix: 'error_',
+            required: 'required',
+            fieldType: 'fieldtype',
+            fieldName: 'fieldname',
+            maxValue: 'maxvalue',
+            minValue: 'minvalue',
+            dateFormat: 'dateformat',
+            regExpr: 'regexpr'
+        },
+        availableFieldType: {
+            numeric: 'numeric',
+            date: 'date',
+            radio: 'radio'
+        },
+        fieldTypeReg: {
+            numeric: /^\d+(\.\d+)?$/
+        }
+    };
+
+    function initDateFields() {
+//        console.log('initDateFields');
+        var dateFields = jQuery("input[" + _form_validation.attr.fieldType + "='"
+                                + _form_validation.availableFieldType.date + "']");
+        for (var i = 0; i < dateFields.length; i++) {
+            var field = jQuery(dateFields[i]);
+            var availableDays = field.attr("availableDays") ?
+                                field.attr("availableDays").split(";") : null;
+            var dateFormat = field.attr('dateformat');
+            var dateTrigger = field.attr('dateTrigger');
+            if (!dateTrigger){
+               dateTrigger = 'button'
+            }
+//            console.log('dateFormat', dateFormat);
+            if (dateFormat) {
+//                console.log('dateFormat 2', dateFormat);
+                dateFormat = dateFormat.replace("yyyy", 'yy');
+                dateFormat = dateFormat.replace("MM", 'mm');
+                field.attr('dateformat', dateFormat);
+            }
+
+            var config = {
+                dateFormat: dateFormat || "yy-mm-dd",
+                maxDate:    field.attr("maxvalue") || null,
+                minDate:    field.attr("minvalue") || null,
+                yearRange:  field.attr("yearRange") || "c-10:c+10",
+                buttonImage: 'theme/theme_elvrise/images/cal-icon32.png',
+                buttonImageOnly: false,
+                autoSize: true,
+                showOn: dateTrigger,
+                onGenerate: function (ct) {
+                  jQuery(this).find('.xdsoft_date').toggleClass('xdsoft_disabled');
+                },
+                buttonText : field.attr("buttonText") || '',
+                showButtonPanel: true,
+                changeYear: true,
+                changeMonth: true,
+                beforeShowDay: function (date) {
+                    if (!availableDays) {
+                        return [true, ""];
+                    }
+
+                    var dmy = jQuery.datepicker.formatDate(dateFormat, date);
+                    if (jQuery.inArray(dmy, availableDays) != -1) {
+                        return [true, ""];
+                    } else {
+                        return [false, ""];
+                    }
+                },
+                beforeShow: function (input) {
+                    setTimeout(function () {
+//                        var buttonPane = jQuery(input).datepicker("widget").find(".ui-datepicker-buttonpane");
+//
+//                        jQuery("<button>", {
+//                            text: "Clear",
+//                            click: function () {
+//                                //Code to clear your date field (text box, read only field etc.) I had to remove the line below and add custom code here
+//                                jQuery.datepicker._clearDate(input);
+//                            }
+//                        }).appendTo(buttonPane).addClass("ui-datepicker-clear ui-state-default ui-priority-primary ui-corner-all");
+                     //change today button opacity
+                     jQuery('button.ui-datepicker-current').css('opacity',1).css('font-weight','bold');
+                    }, 1);
+                }
+//              ,
+//                onChangeMonthYear: function (year, month, instance) {
+//                    setTimeout(function () {
+//                        var buttonPane = jQuery(instance)
+//                                .datepicker("widget")
+//                                .find(".ui-datepicker-buttonpane");
+//
+//                        jQuery("<button>", {
+//                            text: "Clear",
+//                            click: function () {
+//                                //Code to clear your date field (text box, read only field etc.) I had to remove the line below and add custom code here
+//                                jQuery.datepicker._clearDate(instance.input);
+//                            }
+//                        }).appendTo(buttonPane).addClass("ui-datepicker-clear ui-state-default ui-priority-primary ui-corner-all");
+//                    }, 1);
+//                }
+            };
+
+            field.datepicker(config);
+        }
+        /**
+         * override datepicker _gotoToday function
+         */
+        if(dateFields.length > 0 && jQuery.datepicker) {
+          var original_gotoToday = jQuery.datepicker._gotoToday;
+          jQuery.datepicker._gotoToday = function (id) {
+            var target = jQuery(id), inst = this._getInst(target[0]);
+            original_gotoToday.call(this, id);
+            this._selectDate(id, this._formatDate(inst, inst.selectedDay, inst.drawMonth, inst.drawYear));
+            inst.input.blur();
+          }
+        }
+    }
+
+    function validateForm(formId) {
+        if (!formId) {
+            throw "The param 'formId' is required.";
+        }
+        try {
+
+            var errorCount = 0;
+
+            var validateFormFields = function (formFields) {
+                for (var i = 0; i < formFields.length; i++) {
+                    var formField = jQuery(formFields[i]);
+                    errorCount += validateField(formField).length;
+                }
+            }
+
+            var inputFields = jQuery("#" + formId + " input[formField=true][type!='radio']");
+            validateFormFields(inputFields);
+            var textareaFields = jQuery("#" + formId + " textarea[formField=true]");
+            validateFormFields(textareaFields);
+            var selectFields = jQuery("#" + formId + " select[formField=true]");
+            validateFormFields(selectFields);
+            var radioFields = jQuery("#" + formId + " input[formField=true][type='radio']:checked");
+            validateFormFields(radioFields);
+
+            return errorCount <= 0;
+        } catch (e) {
+            console.log(e);
+        }
+        return false;
+    }
+
+    function printFieldErrors(formField, errors) {
+        var name = formField.attr("name") || formField.attr(_form_validation.attr.fieldName);
+        name = name.replace(".", "_");
+        var errorDisplay = jQuery("#" + _form_validation.errorDisplayPrefix + name);
+        if (errorDisplay) {
+            var html = "";
+            if (errors && errors.length > 0) {
+                for (var i = 0; i < errors.length; i++) {
+                    html += (( i != 0 ? "<br/>*&nbsp;&nbsp;&nbsp;&nbsp;" : "*&nbsp;&nbsp;&nbsp;&nbsp;") + errors[i]);
+                }
+            }
+            jQuery(errorDisplay).html(html);
+        }
+    }
+
+    function validateField(formField) {
+        var messageField = jQuery("#_form_error_msg");
+        var fieldName = formField.attr("name");
+        var fieldNamePrefix = fieldName + "_";
+        var errors = [];
+        var fieldType = formField.attr(_form_validation.attr.fieldType);
+        var val = formField.val();
+        var field = formField;
+
+        if (fieldType == _form_validation.availableFieldType.radio) {
+            var f = jQuery("input[name='" + formField.attr(_form_validation.attr.fieldName) + "']:checked");
+            if (f && f.length == 1) {
+                val = f.val();
+                field = f;
+            } else {
+                val = null;
+            }
+        }
+
+        var checkField = function () {
+            if (fieldType == _form_validation.availableFieldType.numeric) {
+                // test data type
+                var fieldTypeMatched = _form_validation.fieldTypeReg.numeric.test(val);
+                if (!fieldTypeMatched) {
+                    errors.push(messageField.attr(fieldNamePrefix + _form_validation.attr.fieldType) || "Data type is mismatched.");
+                } else {
+                    // check max & min value
+                    var maxValue = formField.attr(_form_validation.attr.maxValue);
+                    var minValue = formField.attr(_form_validation.attr.minValue);
+                    if (maxValue && (parseFloat(val) > parseFloat(maxValue))) {
+                        errors.push(messageField.attr(fieldNamePrefix + _form_validation.attr.maxValue) || ("The max value is " + maxValue + "."));
+                    }
+                    if (minValue && (parseFloat(val) < parseFloat(minValue))) {
+                        errors.push(messageField.attr(fieldNamePrefix + _form_validation.attr.minValue) || ("The min value is " + maxValue + "."));
+                    }
+                }
+            }
+            else if (fieldType == _form_validation.availableFieldType.date) {
+                var dateFormat = formField.attr(_form_validation.attr.dateFormat);
+                if (dateFormat) {
+                    var date = null;
+                    try {
+                        date = jQuery.datepicker.parseDate(dateFormat, val);
+                    } catch (e) {
+                        errors.push(messageField.attr(fieldNamePrefix + _form_validation.attr.fieldType) || "Invalid date format.");
+                    }
+                    if (date) {
+                        var maxDateOption = formField.datepicker("option", "maxDate");
+                        var maxDate = jQuery.datepicker._determineDate(date, maxDateOption);
+                        var minDateOption = formField.datepicker("option", "minDate");
+                        var minDate = jQuery.datepicker._determineDate(date, minDateOption);
+
+                        if (maxDate && date.getTime() > maxDate.getTime()) {
+                            errors.push(messageField.attr(fieldNamePrefix + _form_validation.attr.maxValue) || ("The max value is " + maxValue + "."));
+                        }
+                        if (minDate && date.getTime() < minDate.getTime()) {
+                            errors.push(messageField.attr(fieldNamePrefix + _form_validation.attr.minValue) || ("The min value is " + maxValue + "."));
+                        }
+                    }
+                }
+            }
+            else if (fieldType == _form_validation.availableFieldType.radio) {
+                var dateFormat = formField.attr(_form_validation.attr.dateFormat);
+                if (dateFormat) {
+                    var date = null;
+                    try {
+                        date = jQuery.datepicker.parseDate(dateFormat, val);
+                    } catch (e) {
+                        errors.push(messageField.attr(fieldNamePrefix + _form_validation.attr.fieldType) || "Invalid date format.");
+                    }
+                    if (date) {
+                        var maxDate = formField.datepicker("option", "maxDate");
+                        var minDate = formField.datepicker("option", "minDate");
+
+                        if (maxDate && date.getTime() > maxDate.getTime()) {
+                            errors.push(messageField.attr(fieldNamePrefix + _form_validation.attr.maxValue) || ("The max value is " + maxValue + "."));
+                        }
+                        if (minDate && date.getTime() < minDate.getTime()) {
+                            errors.push(messageField.attr(fieldNamePrefix + _form_validation.attr.minValue) || ("The min value is " + maxValue + "."));
+                        }
+                    }
+                }
+            }
+            else {
+                var regExpr = formField.attr(_form_validation.attr.regExpr);
+                if (regExpr) {
+                    var flag = false;
+                    try {
+                        var reg = new RegExp(regExpr);
+                        flag = reg.test(val)
+                    } catch (e) {
+                    }
+
+                    if (!flag) {
+                        errors.push(messageField.attr(fieldNamePrefix + _form_validation.attr.regExpr) || ("Mismatched regular expression: " + regExpr + ""));
+                    }
+                }
+            }
+        }
+        //check if answer is require.
+        var required = formField.attr(_form_validation.attr.required);
+        if (required) {
+            if (val) {
+                checkField()
+            } else {
+                errors.push(formField.attr(fieldNamePrefix + _form_validation.attr.required) || "Value is required.");
+            }
+        }
+        else {
+            checkField()
+        }
+        console.log('errors', errors);
+        printFieldErrors(field, errors);
+        return errors;
+    }
+
+    function showModalMask(modalDivId) {
+        jQuery(".modal-backdrop").show();
+    }
+
+    function hideModalMask(modalDivId) {
+        jQuery(".modal-backdrop").hide();
+    }
+
+    function openModal(modalDivId) {
+        jQuery("#" + modalDivId).show(150);
+        jQuery("#" + modalDivId).addClass("in");
+        showModalMask();
+    }
+
+    function closeModal(modalDivId) {
+        jQuery("#" + modalDivId).hide(150);
+        jQuery("#" + modalDivId).removeClass("in");
+        hideModalMask();
+    }
+
+    function showDialog(title, bodyContent) {
+        var _defaultDialog = jQuery("#_defaultDialog");
+        if (_defaultDialog) {
+            var titleElement = jQuery("#_defaultDialog h4[name='title']");
+            if (titleElement) {
+                jQuery(titleElement).html(title)
+            }
+
+            var body = jQuery("#_defaultDialog div[name='body']");
+            if (body) {
+                jQuery(body).html(bodyContent);
+            }
+
+            var closeBtn = jQuery("#_defaultDialog button[name='close']");
+            if (closeBtn) {
+                jQuery(closeBtn).bind('click', function () {
+                    jQuery(closeBtn).hide(150);
+                    jQuery(closeBtn).removeClass("in");
+                    hideModalMask();
+                });
+            }
+
+            _defaultDialog.show(150);
+            _defaultDialog.addClass("in");
+            jQuery(".modal-backdrop").show();
+        }
+    }
+
+    function _disableFormSubmit() {
+        var submitButtons = jQuery("[type!='submit']");
+        for (var i = 0; i < submitButtons.length; i++) {
+            var btn = submitButtons[i];
+            jQuery(btn).bind("click", function () {
+//                console.log("disable submit");
+                return false;
+            });
+        }
+    }
+
+    function disableFormSubmit() {
+        var submitButtons = jQuery("[type='submit']");
+        for (var i = 0; i < submitButtons.length; i++) {
+            var btn = submitButtons[i];
+            jQuery(btn).bind("click", function () {
+                console.log("disable submit");
+                return false;
+            });
+        }
+    }
+    /**
+     * add  init smartPhone  dateField
+     */
+    function initSmartPhoneDateFields(){
+      var dateFields = jQuery("input[" + _form_validation.attr.fieldType + "='"
+                       + _form_validation.availableFieldType.date + "']");
+      for (var i = 0; i < dateFields.length; i++) {
+        var field = jQuery(dateFields[i]);
+        var config = {
+          availableDays: field.attr("availableDays") || ''
+        };
+        field.mobileDatePicker(config);
+      }
+    }
+    jQuery(document).ready(function () {
+//            initSmartPhoneDateFields();
+            initDateFields();
+    });
+
+</script><script type="text/javascript" src="theme/scripts/jquery.dd.min.js"></script>
+<script type="text/javascript" src="theme/scripts/commonJS.js"></script>
+<script type="text/javascript">
+    function expirationYearSelect() {
+        jQuery("#expirationMonth").empty();
+        var d = new Date();
+        var vYear = d.getFullYear();
+        var vMon = 1;
+
+        var selectedYear = parseInt(jQuery('#expirationYear').val());
+
+        if (selectedYear == vYear) {
+            vMon = d.getMonth() + 1
+        }
+
+        for (var i = vMon; i <= 12; i++) {
+            jQuery("#expirationMonth").append("<option value='" + i + "'>" + i + "</option>")
+        }
+    }
+
+    function checkBox(value) {
+        var divReminderEmail = document.getElementById("reminderEmails");
+        var reminderAdvanceDay = $('#reminderAdvanceDay');
+        var divReminderSMS   = document.getElementById("reminderSMS");
+        var reminderType = document.getElementById("reminderType");
+        if (value.id == "needReminder") {
+            if (value.checked) {
+                if (reminderType.value == "email") {
+                    divReminderEmail.style.display = "";
+                } else if (reminderType.value == "SMS") {
+                    divReminderSMS.style.display = "";
+                }
+                reminderAdvanceDay.removeAttr('readOnly','readOnly');
+                $("#needReminderHidden").val(true);
+            }
+            else {
+                divReminderEmail.style.display = "none";
+                divReminderSMS.style.display = "none";
+                reminderAdvanceDay.attr('readOnly','readOnly');
+                $("#needReminderHidden").val(false);
+            }
+        }
+    }
+
+    function enableAcceptProgram(checkBox) {
+        if(checkBox && checkBox.checked){
+            $('#continueBtn').prop('disabled', false);
+            $('#continueBtn').css({
+                'cursor':"pointer",
+                'background-color': '',
+                'color': ''
+            });
+        } else {
+            $('#continueBtn').prop('disabled', true);
+            $('#continueBtn').css({
+                'cursor':"not-allowed",
+                'background-color': '#eee !important',
+                'color': '#ccc !important'
+            });
+        }
+    }
+
+    //Add bank Account
+    function addNewBankAccount(){
+        $("#eventName").attr("name", "_eventId_addBankAccount");
+        $("#initialized").val(true);
+        document.getElementById("programOfferForm").submit();
+    }
+    //Add Card Account
+    function addNewCardAccount(){
+        $("#eventName").attr("name", "_eventId_addCardAccount");
+        $("#initialized").val(true);
+        document.getElementById("programOfferForm").submit();
+    }
+
+    function enableSelectFundingAccount(index, size) {
+        var first = $("#selectFundingAccount" + index).val();
+        $("#fundingAccount" + index).val(first);
+        if (first == "") {
+            for (var i = index; i < size; i++) {
+                if (!$("#selectFundingAccount" + (i+1)).prop("disabled")) {
+                    $("#selectFundingAccount" + (i+1) + " option:selected").removeAttr("selected");
+                    $("#selectFundingAccount" + (i+1)).val("");
+                    $("#selectFundingAccount" + (i+1)).attr("disabled", "disabled");
+                    $("#fundingAccount" + (i+1)).val("");
+                } else {
+                    break;
+                }
+            }
+        } else {
+            $("#selectFundingAccount" + (index+1)).removeAttr("disabled");
+            for (var i = index+1; i < size; i++) {
+                if ($("#selectFundingAccount" + i).val() != "") {
+                    $("#selectFundingAccount" + (i+1)).removeAttr("disabled");
+                } else {
+                    break;
+                }
+            }
+        }
+    }
+    function checkFundingAccountType(index){
+        var first = $("#selectFundingAccount" + index).val();
+
+        if( document.getElementById(first)==null){
+            var i=0;
+            $('input[id^=paymentDate_').each(function(i){
+                if(i==index){
+                    var paymentDate = $(this).val();
+                    var minDateString = getValidACHPaymentDate();
+                    if (!isValidACHPaymentDate(paymentDate)) {
+
+                        $(this).val(minDateString);
+                        $(this).datepicker('option', 'minDate', minDateString);
+                    }
+                    $(this).datepicker('option', 'minDate', minDateString);
+                }
+
+            })
+
+            $("#CVV" + index).val("N/A");
+            $("#CVV" + index).prop("readonly");
+            $("#CVV" + index).attr("readonly", "readonly");
+        }else{
+            var i=0;
+            //console.log("CARD");
+            $('input[id^=paymentDate_').each(function(i){
+                if(i==index){
+                    var paymentDate = $(this).val();
+                    var minDateString = getValidDebitCardPaymentDate();
+                    if (!isValidDebitCardPaymentDate(paymentDate)) {
+
+                        $(this).val(minDateString);
+                        $(this).datepicker('option', 'minDate', minDateString);
+                        //console.log(minDateString);
+                    }
+                    $(this).datepicker('option', 'minDate', minDateString);
+                }
+
+            })
+            $("#CVV" + index).removeAttr("readonly");
+            $("#CVV" + index).val("");
+        }
+        //console.log( document.getElementById(first).value);
+        //console.log(document.getElementById("selectFundingAccount"+index));
+    }
+    function copyCVV(installmentSize){
+        for (i=1;i<installmentSize;i++){
+            $("#selectFundingAccount" + i).val($("#selectFundingAccount" + 0).val());
+            checkFundingAccountType(i);
+            $("#CVV" + i).val($("#CVV" + 0).val());
+        }
+    }
+    function checkReminderType(selected) {
+        var divReminderEmail = document.getElementById("reminderEmails");
+        var divReminderSMS   = document.getElementById("reminderSMS");
+        var needReminderBoxDiv = document.getElementById("needReminder");
+        var reminderAdvanceDay = $('#reminderAdvanceDay');
+
+        if (needReminderBoxDiv.id == "needReminder") {
+            if (needReminderBoxDiv.checked) {
+                if (selected.value == "email") {
+                    divReminderEmail.style.display = "";
+                    divReminderSMS.style.display = "none";
+                } else if (selected.value == "SMS") {
+                    divReminderSMS.style.display = "";
+                    divReminderEmail.style.display = "none";
+                }
+
+                reminderAdvanceDay.removeAttr('readOnly');
+                $('#needReminder').val(true);
+            }
+            else {
+                divReminderEmail.style.display = "none";
+                divReminderSMS.style.display = "none";
+                reminderAdvanceDay.attr('readOnly','readOnly');
+                $('#needReminder').val(false);
+
+            }
+        }
+    }
+
+    // Global constant
+    const DefaultTimeZone = "America/Chicago";
+    const ACHPaymentCutTime = "16:45:00";
+    const DebitCardPaymentCutTime = "21:00:00";
+    const DefaultTimeZoneIE ="-5";
+    function timeLaterThan(time, startTime) {
+        var t1 = time.split(":");
+        var t2 = startTime.split(":");
+        if (t1[0] > t2[0]) {
+            return true;
+        } else if (t1[0] == t2[0]) {
+            if (t1[1] > t2[1]) {
+                return true;
+            } else if (t1[1] == t2[1]) {
+                if (t1[2] > t2[2]) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    function dateFormat(date) {
+        var MyDate = date;
+        var MyDateString;
+        MyDate.setDate(MyDate.getDate());
+        MyDateString = ('0' + (MyDate.getMonth() + 1)).slice(-2) + '/' + ('0' + MyDate.getDate()).slice(-2) + '/' + MyDate.getFullYear();
+        return MyDateString;
+    }
+
+    function getValidACHPaymentDate() {
+
+        var result = new Date(getCurrentDate());
+        if (timeLaterThan(getCurrentTime(), ACHPaymentCutTime)) {
+            result.setDate(result.getDate() + 2);
+        } else {
+            result.setDate(result.getDate() + 1);
+        }
+        return dateFormat(result);
+    }
+
+    function getValidDebitCardPaymentDate() {
+
+        var result = new Date(getCurrentDate());
+        if (timeLaterThan(getCurrentTime(), DebitCardPaymentCutTime)) {
+            result.setDate(result.getDate() + 1);
+        }
+        return dateFormat(result);
+    }
+
+    function isValidACHPaymentDate(date) {
+        var validACHPaymentDate = getValidACHPaymentDate();
+        return ((new Date(date)) >= (new Date(validACHPaymentDate)));
+    }
+
+    function isValidDebitCardPaymentDate(date) {
+        var validDebitCardPaymentDate = getValidDebitCardPaymentDate();
+        return ((new Date(date)) >= (new Date(validDebitCardPaymentDate)));
+    }
+
+    function setStartDateAsValidACHPayment() {
+        var minDateString = getValidACHPaymentDate();
+        $('#paymentDueDate').datepicker('option', 'minDate', minDateString);
+
+        var paymentDueDate = $('#paymentDueDate').val();
+        if (!isValidACHPaymentDate(paymentDueDate)) {
+            $('#paymentDueDate').val(minDateString);
+        }
+    }
+
+    function setStartDateAsValidDebitCardPayment() {
+        var minDateString = getValidDebitCardPaymentDate();
+        $('#paymentDueDate').datepicker('option', 'minDate', minDateString);
+
+        var paymentDueDate = $('#paymentDueDate').val();
+        if (!isValidDebitCardPaymentDate(paymentDueDate)) {
+            $('#paymentDueDate').val(minDateString);
+        }
+    }
+
+    function isTdbIntegerKey(evt) {
+        if (evt.keyCode != 9) {
+            var charCode = (evt.which) ? evt.which : event.keyCode;
+            if (charCode > 31 && (charCode < 48 || charCode > 57))
+                return false;
+        }
+        return true;
+    }
+
+    $(document).ready(function(){
+        var needReminderBoxDiv = document.getElementById("needReminder");
+        var reminderEmailsDiv = document.getElementById("reminderEmails");
+        var divReminderSMS   = document.getElementById("reminderSMS");
+        var emailOption = document.getElementById("email");
+        var smsOption = document.getElementById("SMS");
+        var reminderAdvanceDay = 10;
+        var reminderType = "";
+
+        if (needReminderBoxDiv && needReminderBoxDiv.checked) {
+            if (reminderType == "email") {
+                reminderEmailsDiv.style.display = "";
+                divReminderSMS.style.display = "none";
+                emailOption.setAttribute("selected",true);
+            }else if (reminderType == "SMS") {
+                divReminderSMS.style.display = "";
+                reminderEmailsDiv.style.display = "none";
+                smsOption.setAttribute("selected",true);
+            }
+
+        }
+
+        $('#continueBtn').click(function(){
+            $("#reminderSMSCountryCodeHidden").val($("#reminderSMSCountryCode").val());
+        });
+        enableAcceptProgram();
+
+
+        $('input[id^=paymentDate_').each(function(i){
+            checkFundingAccountType(i);
+        })
+
+
+    });
+    function getCurrentTime() {
+
+        var ua = window.navigator.userAgent;
+        var msie = ua.indexOf("MSIE ");
+        if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))  // If Internet Explorer, return version number
+        {
+            var d = new Date();
+            d = d.setUTCHours(d.getUTCHours()+parseInt(DefaultTimeZoneIE));
+            d=new Date(d);
+            var h = addZero(d.getUTCHours());
+            var m = addZero(d.getUTCMinutes());
+            var s = addZero(d.getUTCSeconds());
+            var currentTime=h + ":" + m + ":" + s;;
+            return currentTime;
+        }
+        else  // If another browser, return 0
+        {
+            var currentTime = new Date().toLocaleTimeString("en-US", {
+                timeZone: DefaultTimeZone,
+                hour12: false,
+                formatMatcher: "basic"
+            });
+            var currentDate = new Date().toLocaleDateString("en-US", {timeZone: DefaultTimeZone});
+            return currentTime;
+        }
+
+        return false;
+    }
+    function getCurrentDate() {
+
+        var ua = window.navigator.userAgent;
+        var msie = ua.indexOf("MSIE ");
+        if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))  // If Internet Explorer, return version number
+        {
+            var d = new Date();
+
+            d=new Date(d.setUTCHours(d.getUTCHours()+parseInt(DefaultTimeZoneIE)));
+            var day = addZero(d.getUTCDate());
+            var mon = addZero(d.getUTCMonth()+1);
+            var year = addZero(d.getUTCFullYear());
+            var currentDate=mon + "/" + day + "/" + year;
+            return currentDate;
+
+        }
+        else  // If another browser, return 0
+        {
+            var currentDate = new Date().toLocaleDateString("en-US", {timeZone: DefaultTimeZone});
+            return currentDate;
+        }
+
+        return false;
+    }
+    function addZero(i) {
+        if (i < 10) {
+            i = "0" + i;
+        }
+        return i;
+    }
+</script>
+
+</body>
+</html>
